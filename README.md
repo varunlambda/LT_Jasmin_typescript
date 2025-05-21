@@ -1,4 +1,4 @@
 Commands to execute:
 
-npm i
+npm install && 
 npm test
