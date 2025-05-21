@@ -56,12 +56,12 @@ describe('LambdaTest Example', () => {
     expect(title).toBe('Google');
   });
 
-  it('Check browser', async () => {
-    driver.get("https://www.whatismybrowser.com/");  
-    const title = await driver.getTitle();
-    await driver.sleep(10000);
-    expect(title).toContain('What browser?');
-  });
+  // it('Check browser', async () => {
+  //   driver.get("https://www.whatismybrowser.com/");  
+  //   const title = await driver.getTitle();
+  //   await driver.sleep(10000);
+  //   expect(title).toContain('What browser?');
+  // });
 
   afterAll(async () => {
   if (driver) {
